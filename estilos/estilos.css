@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+h1{
+    background-color: yellow;
+    color: black;
+    font-family: Dosis ;
+}
