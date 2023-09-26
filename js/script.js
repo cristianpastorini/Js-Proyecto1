@@ -24,13 +24,13 @@ function simuladorDeEntradas(){
             if (recital1 === 1) {
                 let cantidadEntradas = parseInt(prompt("Elegiste recital de La Renga en Estadio Obras, Ingrese la cantidad de entradas:"));
                 precioTotalDeEntradas = valorEntradasRecitales * cantidadEntradas;
-                alert ("el precio total es: $" + precioTotalDeEntradas + "Muchas gracias." );
+                alert ("el precio total es: $" + precioTotalDeEntradas + " muchas gracias." );
                 break;
             }
             else if (recital1 === 2) {
                 let cantidadEntradas = parseInt(prompt("Elegiste recital de Ciro en Estadio Obras, Ingrese la cantidad de entradas:"));
                 precioTotalDeEntradas = valorEntradasRecitales * cantidadEntradas;
-                alert ("el precio total es: $" + precioTotalDeEntradas + "Muchas gracias." );
+                alert ("el precio total es: $" + precioTotalDeEntradas + " muchas gracias." );
             break;
             } 
             else if (recital1 === 0) {
@@ -55,13 +55,13 @@ function simuladorDeEntradas(){
             if (futbol === 1) {
                 let cantidadEntradas = parseInt(prompt("Elegiste el partido de Racing vs Independiente , Ingrese la cantidad de entradas:"));
                 precioTotalDeEntradas = valorEntradasFutbol * cantidadEntradas;
-                alert ("el precio total es: $" + precioTotalDeEntradas  + "Muchas gracias.");
+                alert ("el precio total es: $" + precioTotalDeEntradas  + " muchas gracias.");
                 break;
             }
             else if (futbol === 2) {
                 let cantidadEntradas = parseInt(prompt("Elegiste el partido de River vs Boca, Ingrese la cantidad de entradas:"));
                 precioTotalDeEntradas = valorEntradasFutbol * cantidadEntradas;
-                alert ("el precio total es: $" + precioTotalDeEntradas + "Muchas gracias.");
+                alert ("el precio total es: $" + precioTotalDeEntradas + " muchas gracias.");
             break;
             } 
             else if (futbol === 0) {
