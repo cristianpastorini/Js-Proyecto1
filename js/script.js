@@ -73,7 +73,7 @@ function simuladorDeEntradas(){
             }
         }
 
-        /* console.log(simuladorDeEntradas);
-        }*/
+        /* console.log(simuladorDeEntradas); */
+        }
+
         simuladorDeEntradas();
-    }
