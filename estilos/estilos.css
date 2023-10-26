@@ -40,6 +40,7 @@ li{
         }
         #fondoimagen {
         position: absolute;
+        background-repeat: no-repeat;
         top: 0;
         left: 0;
         width: 100%;
