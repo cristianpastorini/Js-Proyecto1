@@ -8,10 +8,10 @@ let partidos = [
     { nombre: "Racing vs Independiente", estadio:"Presidente Peron" },
     { nombre: "River vs Boca", estadio: "Mas monumental" }
 ];
-const video = document.getElementById('backgroundvideo');
+/* const video = document.getElementById('backgroundvideo');
 video.autoplay = true;
 video.loop = true;
-video.muted = true;
+video.muted = true; */
 
 document.addEventListener("DOMContentLoaded", function() {
     const recitalesListElement = document.getElementById("recitalesList");
